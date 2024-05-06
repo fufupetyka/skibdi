@@ -1,0 +1,31 @@
+kérjen be a felhasználótól két egész számot a terminálról
+tárolja le egy változóban, majd írja ki a terminálra a a két szám különbségének abszolút értékét
+határozza meg, és írja ki a képernyőre, hogy az így kapott eredmény osztható-e maradék nélkül 3-al, vagy sem
+
+------------------------
+
+a források közt adott a cicanevek.py állomány, egy karakterláncokat tartalmazó lista van benne.
+Tegye hozzáférhetővé a kódjában a lista tartalmát (a modul importálásával vagy kódrészlet megfelelő helyre másolásával), majd végezze el a következő feladatokat:
+- válasszon ki egy véletlenszerű nevet a listából a random modul felhasználásával, írja ki a terminálra
+- határozza meg, hogy hány 'e' betű van a kiválasztott elemben, írja ki a név mellé a számot.
+- a program kérdezze meg a felhasználót, hogy tetszik-e neki ez a név, várjon a kérdésre a terminálon választ.
+- mindaddig ismételje a kérdést, és válasszon ki a listából újabb véletlenszerű nevet, amíg a felhasználó a kérdésre "igen" választ nem ad - ezt követőn a program gratuláljon a választáshoz, és köszönjön el a felhasználótól.
+
+------------------------
+
+Adott az UTF-8-as kódolású paralimpia.txt állomány, amely a Paralimpia nevű sportverseny sorozat nyári idényének eddigi rendezési adatait, és az adott versenyen magyarok által szerzett érmek számát tartalmazza.
+Az állomány sorai azonos szerkezetűek, az adattagok pontosvessző karakter választja el egymástól. Az állomány egy sora például:
+2004;Görögország;Athén;1;8;10
+ahol adattagok jelentése rendre a következők:
+- évszám, amikor az atott versenyt rendezték
+- rendező ország neve
+- a rendezvénynek helyet adó város
+- a következő három számadat magyar sportolók által szerzett érmek száma arany, ezüst majd bronz sorrendben
+
+Olvassa be az állomány tartalmát, és tárolja le egy objektumpéldányokat tartalmazó listába! Ennek a listának a felhasználásával
+oldja meg az alábbi feladatokat! A terminálra történő kiírást igénylő feladatok eredményét a mintán látható módon jelenítse meg!
+
+- Jelenítse meg a terminálon, hogy hány versenyt rendeztek eddig!
+- Az adatok a forrásfileban rendezési év szerint növekvő sorrendben vannak. Határozza meg, hogy melyik ország adott helysínt először a versenysorozatnak!
+- határozza meg, hogy a versenysorozaton a magyarok eddig összesen hány érmet szereztek.
+- határozza meg, hogy hány olyan verseny volt, ahol a magyar versenyzőknek sikerült legalább egy aranyérmet szereznie!
